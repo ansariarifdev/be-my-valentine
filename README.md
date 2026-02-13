@@ -1,36 +1,147 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Be My Valentine 💝
 
-## Getting Started
+A beautiful, interactive Valentine's Day proposal website for Shivam, built with Next.js, featuring smooth animations, engaging interactions, and heartfelt content.
 
-First, run the development server:
+## ✨ Features
+
+### 🏠 Landing Page (/)
+
+- Beautiful hero section with animated elements
+- Preview cards showcasing what's inside
+- Smooth scroll animations
+- Call-to-action buttons
+
+### 💖 Qualities Page (/qualities)
+
+- 8 animated cards highlighting Shivam's amazing qualities
+- Each card features unique icons and gradient backgrounds
+- Hover animations and interactions
+- Personal message section
+- Direct navigation to the proposal
+
+### 💘 Proposal Page (/proposal)
+
+- **The Big Question**: "Will you be my Valentine?"
+- **Interactive Yes Button**: Navigates to celebration page
+- **Escaping No Button**: Playfully moves away when hovered/clicked
+- Dynamic button sizing (Yes button grows as user tries to click No)
+- Funny changing text on No button
+- Hints appear after multiple attempts
+- Mobile-friendly touch interactions
+
+### 🎉 Celebration Page (/celebration)
+
+- Massive confetti explosion animation (20 seconds!)
+- "I KNEW IT!" celebration message
+- Hindi phrase: "Pta tha mujhe, tera irada theek nahi hai!"
+- Official duties list with icons
+- Heartfelt love letter section
+- Fun statistics cards
+- Floating heart animations
+- Screenshot-worthy design
+
+### 🎨 Design Features
+
+- **Animated gradient background** that shifts colors
+- **Floating hearts, sparkles, and stars** across all pages
+- **Professional navbar** with active state indicators
+- **Glassmorphism effects** (frosted glass cards)
+- **Smooth page transitions**
+- **Responsive design** (mobile and desktop)
+- **Shadcn/ui components** for professional UI
+- **Lucide React icons** throughout
+- **Motion animations** powered by Framer Motion
+
+### 🎯 Tech Stack
+
+- **Next.js 16** (App Router)
+- **TypeScript**
+- **Tailwind CSS v4**
+- **Framer Motion** (motion library)
+- **Shadcn/ui** components
+- **Lucide React** icons
+- **Canvas Confetti**
+- **Google Fonts**: Pacifico (headings) & Nunito (body)
+
+## 🚀 Getting Started
+
+### Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+bun run build
+```
 
-## Learn More
+### Start Production Server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+bun start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+app/
+├── page.tsx                  # Landing page
+├── qualities/page.tsx        # Why I like Shivam page
+├── proposal/page.tsx         # The big question with Yes/No
+├── celebration/page.tsx      # Success celebration
+├── layout.tsx                # Root layout with navbar
+├── globals.css               # Global styles & animations
+└── components/
+    ├── ProposalCard.tsx      # (legacy, now in proposal page)
+    └── Celebration.tsx       # (legacy, now in celebration page)
 
-## Deploy on Vercel
+components/
+├── Navbar.tsx                # Site navigation
+├── BackgroundEffects.tsx     # Animated background elements
+└── ui/                       # Shadcn components
+    ├── button.tsx
+    ├── card.tsx
+    └── navigation-menu.tsx
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+lib/
+└── utils.ts                  # Utility functions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+public/
+└── Shivam.jpeg              # Profile image
+```
+
+## 🎭 User Journey
+
+1. **Landing** → User sees the hero section with Shivam's photo
+2. **Qualities** → Explores 8 beautiful cards about why they're special
+3. **Proposal** → The big question with playful No button interaction
+4. **Celebration** → Confetti, love notes, and official Valentine status!
+
+## 💝 Design Philosophy
+
+- **Flirty yet Sincere**: Balances humor with genuine affection
+- **Interactive**: Engages users with playful animations
+- **Professional**: Clean, modern design following industry standards
+- **Responsive**: Works beautifully on all devices
+- **Memorable**: Creates a lasting impression
+
+## 🎨 Color Palette
+
+- Primary: Rose/Pink gradients (#ff0a54, #ff477e, #ff85a1)
+- Accents: Purple, Orange, Teal (for quality cards)
+- Background: Animated gradient with soft pastels
+- Text: Gray-700 for readability
+
+## 📱 Responsive Design
+
+- Desktop: Full animations and effects
+- Tablet: Optimized layouts
+- Mobile: Touch-friendly interactions, adapted No button behavior
+
+---
+
+Made with ❤️ and way too much code (no regrets!) ✨

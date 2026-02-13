@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Pacifico, Nunito } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import BackgroundEffects from "@/components/BackgroundEffects";
 
 const pacifico = Pacifico({
   weight: "400",
@@ -28,7 +30,9 @@ export default function RootLayout({
       <body
         className={`${pacifico.variable} ${nunito.variable} antialiased bg-pink-50 text-gray-800`}
       >
-        {children}
+        <BackgroundEffects />
+        <Navbar />
+        <div className="pt-20">{children}</div>
       </body>
     </html>
   );

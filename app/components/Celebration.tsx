@@ -66,7 +66,7 @@ export default function Celebration() {
             transition={{ delay: 0.5 }}
             className="text-3xl font-bold text-rose-600 drop-shadow-sm"
           >
-            "Pta tha mujhe, tera irada theek nahi hai!" 😏
+            "Pta tha mujhe, tera irada theek na hai!" 😏
           </motion.p>
 
           <motion.p
