@@ -16,8 +16,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "A Very Serious Question 💘",
-  description: "Made with love (and a bit of dramatic flair).",
+  title: "For Riya, With All My Love 💖",
+  description: "A heartfelt proposal made with endless love and devotion.",
 };
 
 export default function RootLayout({

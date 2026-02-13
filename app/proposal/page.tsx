@@ -14,20 +14,20 @@ export default function ProposalPage() {
 
   const funnyNoPhrases = [
     "No 💔",
-    "Are you sure?",
-    "Really?",
-    "Think again!",
-    "Last chance!",
-    "Surely not?",
-    "Wait, what?",
-    "Nice try!",
-    "Missed me!",
-    "Don't do this!",
-    "I'm slippery!",
-    "Have a heart!",
-    "Reconsider?",
-    "You sure sure?",
-    "100% sure?",
+    "Wait... please?",
+    "Please reconsider 🥺",
+    "My heart...",
+    "Don't break my heart",
+    "Think about it?",
+    "Give us a chance?",
+    "Pretty please?",
+    "One more chance!",
+    "I believe in us",
+    "Can't catch me!",
+    "Still hoping... 💕",
+    "Please?",
+    "Are you certain?",
+    "Really sure?",
   ];
 
   const moveNoButton = () => {
@@ -61,12 +61,12 @@ export default function ProposalPage() {
         className="bg-white/70 backdrop-blur-md p-8 md:p-12 rounded-3xl shadow-2xl max-w-2xl w-full border-4 border-rose-300"
       >
         {/* Profile Image */}
-        <div className="relative w-56 h-56 mx-auto mb-8 rounded-full overflow-hidden border-4 border-rose-300 shadow-xl">
+        <div className="relative w-56 h-56 mx-auto mb-8 rounded-full overflow-hidden border-4 border-rose-400 shadow-xl ring-4 ring-pink-200/40">
           <Image
-            src="/Shivam.jpeg"
-            alt="Shivam"
+            src="/beautiful girl .jpg"
+            alt="Riya"
             fill
-            className="object-cover"
+            className="object-cover object-[center_20%]"
             priority
           />
         </div>
@@ -82,7 +82,7 @@ export default function ProposalPage() {
           </motion.div>
 
           <h1 className="text-4xl md:text-6xl font-pacifico text-transparent bg-clip-text bg-linear-to-r from-rose-500 to-pink-600 mb-6">
-            Shivam! 💝
+            Riya... 💕
           </h1>
 
           <p className="text-2xl md:text-3xl text-gray-800 mb-4 font-nunito font-bold">
@@ -90,11 +90,11 @@ export default function ProposalPage() {
           </p>
 
           <p className="text-lg text-gray-600 italic mb-2">
-            (I promise I'm being completely serious)
+            You've brought so much joy into my life...
           </p>
 
           <p className="text-md text-gray-500 mb-8">
-            (OK maybe like 90% serious, but that's pretty high for me)
+            And I can't imagine celebrating this day without you 💖
           </p>
         </div>
 
@@ -140,7 +140,7 @@ export default function ProposalPage() {
             animate={{ opacity: 1 }}
             className="text-center mt-8 text-gray-500 text-sm italic"
           >
-            (Hint: The "No" button is playing hard to get 😏)
+            (The "No" button seems to be running away... maybe it's a sign? 💫)
           </motion.p>
         )}
 
@@ -151,10 +151,10 @@ export default function ProposalPage() {
             className="text-center mt-4"
           >
             <p className="text-rose-600 font-bold">
-              Okay fine, I'll make this easier...
+              I think the universe is trying to tell you something...
             </p>
             <p className="text-gray-600 text-sm mt-2">
-              (Just click the big pink button already! 😄)
+              (The answer your heart knows is the right one 💝)
             </p>
           </motion.div>
         )}
@@ -167,7 +167,7 @@ export default function ProposalPage() {
             className="flex items-center justify-center gap-2 text-gray-400 text-sm"
           >
             <Sparkles className="w-4 h-4" />
-            <span>Made with love (and a lot of code)</span>
+            <span>Made with all my love and hope ✨</span>
             <Sparkles className="w-4 h-4" />
           </motion.div>
         </div>

@@ -19,12 +19,12 @@ export default function Home() {
             transition={{ type: "spring", stiffness: 200, damping: 20 }}
             className="mb-8"
           >
-            <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-rose-300 shadow-2xl">
+            <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-rose-400 shadow-2xl ring-4 ring-pink-200/50">
               <Image
-                src="/Shivam.jpeg"
-                alt="Shivam"
+                src="/beautiful girl .jpg"
+                alt="Riya"
                 fill
-                className="object-cover"
+                className="object-cover object-[center_20%]"
                 priority
               />
             </div>
@@ -36,7 +36,7 @@ export default function Home() {
             transition={{ delay: 0.3 }}
             className="text-5xl md:text-7xl font-pacifico text-transparent bg-clip-text bg-linear-to-r from-rose-500 to-pink-600 mb-6"
           >
-            Hey Shivam! 💝
+            Dear Riya 💝
           </motion.h1>
 
           <motion.p
@@ -45,7 +45,7 @@ export default function Home() {
             transition={{ delay: 0.5 }}
             className="text-xl md:text-2xl text-gray-700 mb-4 max-w-2xl font-nunito"
           >
-            I created this entire website just to ask you something...
+            I've been wanting to tell you something special for a while now...
           </motion.p>
 
           <motion.p
@@ -54,7 +54,7 @@ export default function Home() {
             transition={{ delay: 0.7 }}
             className="text-lg text-gray-600 mb-12 italic"
           >
-            (Yes, I'm extra like that) ✨
+            (And I built this whole website to express it) ✨
           </motion.p>
 
           <motion.div
@@ -68,7 +68,7 @@ export default function Home() {
                 size="lg"
                 className="bg-linear-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all"
               >
-                Why You? 💭
+                What Makes You Special 💭
                 <ArrowRight className="ml-2" />
               </Button>
             </Link>
@@ -113,18 +113,18 @@ export default function Home() {
             {[
               {
                 icon: Heart,
-                title: "Genuine Connection",
-                desc: "Our friendship means the world to me",
+                title: "A Beautiful Soul",
+                desc: "Every moment with you feels like a blessing",
               },
               {
                 icon: Sparkles,
-                title: "Special Qualities",
-                desc: "You're one of a kind, Shivam",
+                title: "Enchanting Presence",
+                desc: "You light up my world in ways I never imagined",
               },
               {
                 icon: Heart,
-                title: "A Question",
-                desc: "That I hope you'll say yes to...",
+                title: "My Heart's Wish",
+                desc: "There's something I need to ask you...",
               },
             ].map((item, i) => (
               <motion.div

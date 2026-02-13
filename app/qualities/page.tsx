@@ -18,58 +18,58 @@ import { Card } from "@/components/ui/card";
 const qualities = [
   {
     icon: Smile,
-    title: "Your Infectious Smile",
+    title: "Your Radiant Smile",
     description:
-      "That smile of yours could light up the darkest room. Seriously, it's unfair how good your smile is.",
+      "Your smile lights up my entire world. Every time I see it, my day becomes infinitely better.",
     color: "from-yellow-400 to-orange-500",
   },
   {
     icon: Zap,
-    title: "Energy & Enthusiasm",
+    title: "Captivating Presence",
     description:
-      "Your energy is contagious! Every conversation with you feels like an adventure.",
+      "The way you carry yourself, the energy you radiate – it's mesmerizing. You're simply magnetic.",
     color: "from-blue-400 to-cyan-500",
   },
   {
     icon: Heart,
-    title: "Kindness",
+    title: "Beautiful Heart",
     description:
-      "You have the biggest heart. The way you care about people is genuinely beautiful.",
+      "Your kindness, compassion, and caring nature are truly beautiful. You have the most wonderful heart.",
     color: "from-pink-400 to-rose-500",
   },
   {
     icon: Star,
-    title: "Uniquely You",
+    title: "Uniquely Perfect",
     description:
-      "There's literally no one else like you. You're one of a kind, and that's what makes you special.",
+      "Everything about you is special – your laugh, your thoughts, your dreams. You're perfectly you, and that's everything.",
     color: "from-purple-400 to-pink-500",
   },
   {
     icon: Coffee,
-    title: "Great Company",
+    title: "My Favorite Person",
     description:
-      "Whether we're talking about life or just random stuff, spending time with you is always the highlight.",
+      "Every moment I spend with you is precious. You make ordinary moments feel extraordinary.",
     color: "from-amber-400 to-orange-600",
   },
   {
     icon: Music,
-    title: "Sense of Humor",
+    title: "Joyful Spirit",
     description:
-      "You make me laugh even when I'm trying to be serious. That's a superpower.",
+      "Your laughter is my favorite sound. The joy you bring into my life is irreplaceable.",
     color: "from-green-400 to-teal-500",
   },
   {
     icon: BookOpen,
-    title: "Intelligence",
+    title: "Brilliant Mind",
     description:
-      "You're incredibly smart, and I love how our conversations can go from silly to deep in seconds.",
+      "Your intelligence, creativity, and the way you see the world inspire me every single day.",
     color: "from-indigo-400 to-purple-500",
   },
   {
     icon: Award,
-    title: "Being Yourself",
+    title: "Authentically You",
     description:
-      "You're unapologetically yourself, and that authenticity is rare and precious.",
+      "Your authenticity, your grace, the way you stay true to yourself – it's one of the things I admire most about you.",
     color: "from-rose-400 to-pink-600",
   },
 ];
@@ -84,11 +84,11 @@ export default function QualitiesPage() {
           className="text-center mb-16"
         >
           <h1 className="text-5xl md:text-7xl font-pacifico text-transparent bg-clip-text bg-linear-to-r from-rose-500 to-pink-600 mb-6">
-            Why I Like You 💝
+            Why I Love You, Riya 💕
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto">
-            Let me count the ways... (Actually, there are too many, but here are
-            my favorites)
+            These are just some of the countless reasons why you mean the world
+            to me...
           </p>
         </motion.div>
 
@@ -132,24 +132,26 @@ export default function QualitiesPage() {
             <div className="text-center">
               <Heart className="w-12 h-12 text-rose-500 mx-auto mb-4 fill-current" />
               <h2 className="font-pacifico text-3xl text-rose-600 mb-4">
-                The Real Deal
+                From My Heart
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Shivam, you've been an incredible friend, and honestly, you make
-                my days better just by being you. This isn't just some random
-                crush—I genuinely admire who you are as a person.
+                Riya, you've become so incredibly special to me. The way you
+                make me feel, the happiness you bring into my life – it's
+                something I've never experienced before. You're not just
+                amazing; you're everything I didn't know I was looking for.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                So yeah, I thought... why not take a shot and ask you something
-                special? (And build an entire website while I'm at it, because
-                apparently that's what I do when I care about someone) 😅
+                I built this entire website because words alone didn't feel like
+                enough to express how much you mean to me. You deserve something
+                as special and unique as you are, and I wanted to show you just
+                how deeply I care. 💕
               </p>
               <Link href="/proposal">
                 <Button
                   size="lg"
                   className="bg-linear-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold text-xl px-10 py-6 rounded-full shadow-lg hover:shadow-xl transition-all"
                 >
-                  Ready for the Question? 💘
+                  Will You Be Mine? 💖
                 </Button>
               </Link>
             </div>

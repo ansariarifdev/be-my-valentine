@@ -1,6 +1,6 @@
-# Be My Valentine 💝
+# Be My Valentine 💖
 
-A beautiful, interactive Valentine's Day proposal website for Shivam, built with Next.js, featuring smooth animations, engaging interactions, and heartfelt content.
+A beautiful, interactive Valentine's Day proposal website for Riya, built with Next.js, featuring smooth animations, engaging interactions, and deeply heartfelt content.
 
 ## ✨ Features
 
@@ -13,10 +13,10 @@ A beautiful, interactive Valentine's Day proposal website for Shivam, built with
 
 ### 💖 Qualities Page (/qualities)
 
-- 8 animated cards highlighting Shivam's amazing qualities
+- 8 beautifully animated cards highlighting why Riya is so special
 - Each card features unique icons and gradient backgrounds
 - Hover animations and interactions
-- Personal message section
+- Personal heartfelt message section
 - Direct navigation to the proposal
 
 ### 💘 Proposal Page (/proposal)
@@ -31,13 +31,11 @@ A beautiful, interactive Valentine's Day proposal website for Shivam, built with
 
 ### 🎉 Celebration Page (/celebration)
 
-- Massive confetti explosion animation (20 seconds!)
-- "I KNEW IT!" celebration message
-- Hindi phrase: "Pta tha mujhe, tera irada theek nahi hai!"
-- Official duties list with icons
-- Heartfelt love letter section
-- Fun statistics cards
-- Floating heart animations
+- Massive confetti explosion animation (15 seconds!)
+- "You Said Yes!" celebration message
+- Heartfelt promises and commitments
+- Beautiful journey message
+- Romantic closing sentiment
 - Screenshot-worthy design
 
 ### 🎨 Design Features
@@ -90,7 +88,7 @@ bun start
 ```
 app/
 ├── page.tsx                  # Landing page
-├── qualities/page.tsx        # Why I like Shivam page
+├── qualities/page.tsx        # Why I love Riya page
 ├── proposal/page.tsx         # The big question with Yes/No
 ├── celebration/page.tsx      # Success celebration
 ├── layout.tsx                # Root layout with navbar
@@ -111,23 +109,23 @@ lib/
 └── utils.ts                  # Utility functions
 
 public/
-└── Shivam.jpeg              # Profile image
+└── beautiful girl .jpg       # Riya's photo
 ```
 
 ## 🎭 User Journey
 
-1. **Landing** → User sees the hero section with Shivam's photo
-2. **Qualities** → Explores 8 beautiful cards about why they're special
+1. **Landing** → User sees the hero section with Riya's photo and heartfelt opening
+2. **Qualities** → Explores 8 beautiful cards about why she's so special and loved
 3. **Proposal** → The big question with playful No button interaction
-4. **Celebration** → Confetti, love notes, and official Valentine status!
+4. **Celebration** → Confetti, loving promises, and official Valentine status!
 
 ## 💝 Design Philosophy
 
-- **Flirty yet Sincere**: Balances humor with genuine affection
-- **Interactive**: Engages users with playful animations
+- **Romantic yet Genuine**: Balances affection with sincere emotion
+- **Interactive**: Engages users with beautiful animations
 - **Professional**: Clean, modern design following industry standards
 - **Responsive**: Works beautifully on all devices
-- **Memorable**: Creates a lasting impression
+- **Memorable**: Creates a truly unforgettable experience
 
 ## 🎨 Color Palette
 
@@ -144,4 +142,4 @@ public/
 
 ---
 
-Made with ❤️ and way too much code (no regrets!) ✨
+Made with all my love ❤️ and endless dedication ✨

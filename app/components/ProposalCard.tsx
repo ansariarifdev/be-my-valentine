@@ -15,17 +15,17 @@ export default function ProposalCard({ onYes }: ProposalCardProps) {
   // Phrases that show up when you try to click No
   const funnyNoPhrases = [
     "No 💔",
-    "Are you sure?",
-    "Really?",
-    "Think again!",
-    "Last chance!",
-    "Surely not?",
-    "You assume you have a choice?",
-    "Nice try!",
-    "Missed me!",
-    "Don't do this!",
-    "I'm slippery!",
-    "Have a heart!",
+    "Wait... really?",
+    "Please reconsider 🥺",
+    "My heart...",
+    "Don't break my heart",
+    "Think about it?",
+    "Give us a chance?",
+    "Pretty please?",
+    "One more chance!",
+    "I believe in us",
+    "Can't catch me!",
+    "Still hoping... 💕",
   ];
 
   const moveNoButton = () => {
@@ -51,10 +51,10 @@ export default function ProposalCard({ onYes }: ProposalCardProps) {
         transition={{ duration: 0.8 }}
         className="bg-white/60 backdrop-blur-md p-8 rounded-3xl shadow-xl max-w-md w-full border border-pink-100"
       >
-        <div className="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-pink-200 shadow-lg">
+        <div className="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-pink-300 shadow-lg ring-4 ring-rose-200/30">
           <Image
-            src="/Shivam.jpeg"
-            alt="The handsome proposer"
+            src="/beautiful girl .jpg"
+            alt="Riya"
             fill
             className="object-cover"
             priority
@@ -62,19 +62,20 @@ export default function ProposalCard({ onYes }: ProposalCardProps) {
         </div>
 
         <h1 className="text-3xl md:text-4xl font-bold text-pink-600 mb-4">
-          Hey Shivam! 👋
+          Riya... 💕
         </h1>
 
         <p className="text-lg text-gray-700 mb-2 leading-relaxed">
-          I have a very serious question for you...
+          From the moment I met you, my life changed in the most beautiful
+          way...
         </p>
 
         <p className="text-md text-gray-600 mb-8 italic">
-          (Please say yes, my mom is watching)
+          You make every day brighter just by being in it
         </p>
 
         <div className="text-2xl font-bold text-gray-800 mb-8">
-          Will you be my Valentine? 💘
+          Will you be my Valentine? 💖✨
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 min-h-[60px]">
@@ -102,7 +103,7 @@ export default function ProposalCard({ onYes }: ProposalCardProps) {
       </motion.div>
 
       <div className="mt-8 text-sm text-gray-400 opacity-60">
-        Made with ❤️ and 0% dignity
+        Made with all my love ❤️ and endless hope ✨
       </div>
     </div>
   );

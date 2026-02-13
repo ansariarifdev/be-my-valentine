@@ -56,7 +56,7 @@ export default function Celebration() {
         </motion.div>
 
         <h1 className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-linear-to-r from-pink-600 to-purple-600 mb-6 drop-shadow-sm">
-          I KNEW IT! 😎💘
+          You Said Yes! 💖✨
         </h1>
 
         <div className="space-y-6 text-xl text-gray-700 font-medium">
@@ -66,7 +66,7 @@ export default function Celebration() {
             transition={{ delay: 0.5 }}
             className="text-3xl font-bold text-rose-600 drop-shadow-sm"
           >
-            "Pta tha mujhe, tera irada theek na hai!" 😏
+            You've just made me the happiest person alive! 💕
           </motion.p>
 
           <motion.p
@@ -75,7 +75,7 @@ export default function Celebration() {
             transition={{ delay: 1 }}
             className="text-2xl"
           >
-            You were just waiting for me to ask, weren't you? Adorable.
+            I promise to cherish every moment we share together, Riya.
           </motion.p>
 
           <motion.div
@@ -85,13 +85,13 @@ export default function Celebration() {
             className="bg-white/40 p-6 rounded-2xl border border-pink-200 shadow-inner mx-4"
           >
             <p className="text-gray-800 text-lg mb-4 font-bold text-left">
-              Your new official duties:
+              My promises to you:
             </p>
             <ul className="list-disc text-left pl-6 text-gray-800 space-y-2 text-base">
-              <li>Laughing at my bad jokes (mandatory)</li>
-              <li>Ordering food when I'm "not hungry"</li>
-              <li>Sending me reels I've already seen</li>
-              <li>Being my Valentine (obviously)</li>
+              <li>To always make you smile, even on your hardest days</li>
+              <li>To support your dreams and be your biggest cheerleader</li>
+              <li>To treasure every moment we spend together</li>
+              <li>To love you unconditionally, today and always</li>
             </ul>
           </motion.div>
 
@@ -103,8 +103,7 @@ export default function Celebration() {
           >
             <div className="w-full h-px bg-pink-300/50 my-2"></div>
             <p className="italic text-gray-600 font-serif">
-              "Contract signed with a click. No take-backs, no exchanges, no
-              refunds."
+              "This is the beginning of our beautiful journey together."
             </p>
             <div className="w-full h-px bg-pink-300/50 my-2"></div>
           </motion.div>
@@ -116,7 +115,7 @@ export default function Celebration() {
           transition={{ delay: 3 }}
           className="mt-8 text-sm text-gray-500 font-mono opacity-80"
         >
-          (Screenshotted for future blackmail purposes �)
+          Forever yours ❤️✨
         </motion.p>
       </motion.div>
     </div>
